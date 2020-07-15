@@ -1,5 +1,12 @@
 # fastapi-starter-kit
 
+## run using docker
+```
+docker build -t dsk-fast-api-1 .
+
+docker run -d --name mycontainer -p 8000:8000 dsk-fast-api-1
+```
+
 ```
 git clone https://github.com/sureshdsk/fastapi-starter-kit.git
 

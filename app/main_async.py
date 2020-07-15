@@ -1,10 +1,6 @@
-from typing import List
-
 import databases
-import sqlalchemy
 from fastapi import FastAPI
-from pydantic import BaseModel
-from config import Config
+from app.config import Config
 
 database = databases.Database(Config.DATABASE_URL)
 

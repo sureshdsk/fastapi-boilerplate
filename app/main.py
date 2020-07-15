@@ -1,8 +1,7 @@
 from fastapi import FastAPI, Depends
 from config import Config
-import sqlalchemy
 from sqlalchemy.orm import Session
-from database import SessionLocal, get_db
+from database import get_db
 
 app = FastAPI(docs_url=Config.DOC_URL, redoc_url=Config.REDOC_URL)
 
